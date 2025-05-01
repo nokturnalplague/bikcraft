@@ -33,24 +33,6 @@
   font-family: var(--roboto);
 }
 
-.introducao a {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background: linear-gradient(#ffbf00, #f2a50c);
-  border-radius: .25rem;
-  box-shadow: var(--shadow);
-  text-transform: uppercase;
-  color: var(--p5);
-  font-size: 1.125rem;
-  line-height: 1.33;
-  font-weight: bold;
-  font-family: var(--poppins);
-}
-
-.introducao a:hover {
-  background: linear-gradient(#ffb60d, #e59317);
-}
-
 @media (max-width: 600px) {
   .introducao a {
     padding: .75rem 1rem;
