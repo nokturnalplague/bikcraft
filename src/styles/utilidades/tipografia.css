@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@1,18..144,900&family=Poppins:wght@400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --poppins: 'Poppins', Arial, Helvetica, sans-serif;
+  --roboto: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.texto-grande {
+  font-size: 4rem;
+  line-height: 1.125;
+  font-family: var(--poppins);
+}
+
+.texto-grande span {
+  color: var(--p1);
+}
+
+.texto-medio {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: var(--roboto);
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .texto-grande {
+    font-size: 3rem;
+  }
+
+  .texto-medio {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .texto-grande {
+    font-size: 2rem;
+  }
+}

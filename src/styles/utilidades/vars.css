@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@1,18..144,900&family=Poppins:wght@400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root {
-  --w: #fff;
+  /* Cores */
+  --c0: #fff;
   --c1: #f7f7f7;
   --c2: #ededed;
   --c3: #dedede;
@@ -21,10 +20,8 @@
   --p4: #640;
   --p5: #320;
 
-  --poppins: 'Poppins', Arial, Helvetica, sans-serif;
-  --roboto: 'Roboto', Arial, Helvetica, sans-serif;
-
+  /* Sombras */
   --shadow: 0 1px 2px rgba(0,0,0,.1);
-  --scoop: inset 0 -7.5rem var(--w); /*Cria a ilusão de que a imagem está vazando*/
-  --scoop-mb: inset 0 -3.75rem var(--w);
+  --scoop: inset 0 -7.5rem var(--c0); /*Cria a ilusão de que a imagem está vazando*/
+  --scoop-mb: inset 0 -3.75rem var(--c0);
 }

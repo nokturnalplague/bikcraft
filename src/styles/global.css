@@ -28,8 +28,3 @@ img {
   max-width: 100%;
   display: block;
 }
-
-h1 span,
-h2 span {
-  color: var(--p1);
-}
