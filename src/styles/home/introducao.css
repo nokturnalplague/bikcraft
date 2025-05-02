@@ -27,13 +27,6 @@
   color: var(--c5);
 }
 
-@media (max-width: 600px) {
-  .introducao a {
-    padding: .75rem 1rem;
-    font-size: 1rem;
-  }
-}
-
 .introducao img {
   height: 100%;
   object-fit: cover;

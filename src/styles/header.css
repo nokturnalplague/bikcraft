@@ -23,8 +23,6 @@
   padding: 1rem 0; /*Só pra aumentar a área de contato*/
   display: inline-block;
   color: var(--c0);
-  font-family: var(--poppins);
-  font-size: 1.125rem;
   position: relative;
 }
 
