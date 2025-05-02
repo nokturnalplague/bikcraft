@@ -3,6 +3,7 @@
 :root {
   --font-display: 'Poppins', Arial, Helvetica, sans-serif;
   --font-body: 'Roboto', Arial, Helvetica, sans-serif;
+  --font-decor: "Merriweather", serif;
 }
 
 .font-1-xxl {

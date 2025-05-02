@@ -4,12 +4,12 @@
 }
 
 .parceiros h2 {
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 .parceiros ul {
   padding: 0 1.25rem;
-  max-width: 1400px;
+  max-width: 87.5rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -17,7 +17,7 @@
 
 .parceiros li {
   padding: 2rem;
-  border-left: 2px solid var(--c2);
+  border-left: .125rem solid var(--c2);
 }
 
 .parceiros li:first-child,
@@ -26,7 +26,7 @@
 }
 
 .parceiros li:nth-child(n + 5) { /*n à partir do 5*/
-  border-top: 2px solid var(--c2);
+  border-top: .125rem solid var(--c2);
 }
 
 .parceiros img {
@@ -46,8 +46,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .parceiros li {
+    padding: 1.25rem;
+  }
+
   .parceiros li:nth-child(n + 3) {
-    border-top: 2px solid var(--c2);
+    border-top: .125rem solid var(--c2);
   }
 
   .parceiros li:nth-child(odd) {
