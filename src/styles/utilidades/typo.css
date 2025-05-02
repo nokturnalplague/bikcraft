@@ -11,6 +11,7 @@
   font-weight: 600;
   font-size: 4rem;
   line-height: 1.125;
+  text-transform: lowercase;
 }
 
 .font-1-xxl span {
