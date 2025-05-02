@@ -1,6 +1,6 @@
 @import url("./global.css");
-@import url("./utilidades/vars.css");
 @import url("./utilidades/typo.css");
+@import url("./utilidades/colors.css");
 @import url("./utilidades/components.css");
 
 @import url("./header.css");
@@ -8,3 +8,6 @@
 
 /* Home */
 @import url("./home/introducao.css");
+
+/* Bicicletas */
+@import url("./bicicletas/bicicletas-lista.css");
