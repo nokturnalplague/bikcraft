@@ -12,6 +12,7 @@
   font-size: 4rem;
   line-height: 1.125;
   text-transform: lowercase;
+  color: var(--c11);
 }
 
 .font-1-xxl span {
