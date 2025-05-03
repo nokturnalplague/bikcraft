@@ -38,7 +38,7 @@
   width: .875rem;
   height: .375rem;
   background: url("../../pictures/icones/seta-abrir.svg");
-  transiton: .3s;
+  transition: .3s;
 }
 
 .perguntas dd {
