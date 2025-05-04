@@ -16,6 +16,10 @@
   overflow-x: auto; /* cria a narra só se for necessário */
 }
 
+#bicicleta .bicicletas-lista ul {
+  padding: 0 0 1.25rem 0;
+}
+
 .bicicletas-lista li {
   min-width: 17.5rem;
 }
@@ -32,6 +36,7 @@
   margin-bottom: .5rem;
   display: flex;
   align-items: center; /* alinha o ::before */
+  font-weight: 600;
 }
 
 .bicicletas-lista h3::before {
