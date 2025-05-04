@@ -33,6 +33,13 @@
   line-height: 1.5;
 }
 
+.font-2-xl {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
 .font-2-l {
   font-family: var(--font-body);
   font-weight: 400;

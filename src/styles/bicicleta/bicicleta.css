@@ -1,7 +1,3 @@
-.bicicleta-bg {
-  background: var(--c11);
-}
-
 .bicicleta {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -20,13 +16,13 @@
   padding: 2rem;
 }
 
-.bicicleta-imagem ul{
+.bicicleta-imagens{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
 }
 
-.bicicleta-imagem ul li:first-child {
+.bicicleta-imagens img:first-child {
   grid-column: 1/-1;
 }
 
@@ -34,17 +30,22 @@
   margin-bottom: 2rem;
 }
 
-.bicicleta-compra {
+.bicicleta-comprar {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: .75rem;
-  align-items: center;
+  align-items: space-between;
   margin-bottom: 2.5rem;
 }
 
-.bicicleta-compra li {
+.bicicleta-comprar span {
   display: flex;
   gap: .5rem;
+}
+
+.bicicleta-comprar span img {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .bicicleta li + li {
