@@ -1,0 +1,77 @@
+.bicicleta-bg {
+  background: var(--c11);
+}
+
+.bicicleta {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.bicicleta h2 {
+  text-transform: uppercase;
+  margin-bottom: .75rem;
+}
+
+.bicicleta ul {
+  padding: 2rem;
+}
+
+.bicicleta-imagem ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.bicicleta-imagem ul li:first-child {
+  grid-column: 1/-1;
+}
+
+.bicicleta-conteudo > p {
+  margin-bottom: 2rem;
+}
+
+.bicicleta-compra {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .75rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.bicicleta-compra li {
+  display: flex;
+  gap: .5rem;
+}
+
+.bicicleta li + li {
+  margin-top: .5rem;
+}
+
+.bicicleta-informacoes {
+  margin-bottom: 2.5rem;
+}
+
+.bicicleta-informacoes ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.bicicleta-informacoes img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.bicicleta-informacoes h3 {
+  margin-bottom: .5rem;
+}
+
+.bicicleta-ficha li {
+  display: flex;
+  justify-content: space-between;
+}
