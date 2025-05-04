@@ -2,6 +2,7 @@
 @import url("./utilidades/typo.css");
 @import url("./utilidades/colors.css");
 @import url("./utilidades/components.css");
+@import url("./utilidades/form.css");
 
 /* Global */
 @import url("./global/header.css");
@@ -28,3 +29,7 @@
 
 /* Termos */
 @import url("./termos/termos.css");
+
+/* Contato */
+@import url("./contato/contato.css");
+@import url("./contato/lojas.css");
