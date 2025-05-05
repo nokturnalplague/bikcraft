@@ -1,0 +1,122 @@
+#orcamento {
+  background: linear-gradient(var(--c11) 37.5rem, var(--c1) 0%);
+}
+
+.orcamento {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  padding-bottom: 7.5rem;
+}
+
+.orcamento h2 {
+  text-transform: uppercase;
+}
+
+.orcamento h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.5rem;
+  background-color: var(--p1);
+  margin-right: 0.5rem;
+}
+
+.orcamento-produto,
+.orcamento-dados {
+  padding: 3.75rem;
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
+}
+
+.orcamento-produto {
+  border-radius: 0.3125rem 0 0 0.3125rem;
+  background: var(--c12);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  gap: 1.25rem;
+}
+
+.orcamento-produto > * {
+  grid-column: 1/-1;
+}
+
+.orcamento-produto > label {
+  grid-column: initial;
+}
+
+.orcamento-produto label {
+  color: var(--c4);
+  background: var(--c10);
+  display: grid;
+  padding: 0.75rem 1rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  border: .0625rem solid var(--c10);
+}
+
+.orcamento-produto label:hover {
+  background: var(--c9);
+  border: .0625rem solid var(--c9);
+}
+
+.orcamento-produto input:focus + label {
+  box-shadow: 0 0 0 0.125 var(--p1);
+  border: .0625rem solid var(--c12)
+}
+
+.orcamento-produto label::before {
+  content: "";
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border: .0625rem solid var(--c6);
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.orcamento-produto label span {
+  display: none;
+}
+
+.orcamento-produto input:checked + label span {
+  display: inline-block;
+}
+
+.orcamento-produto input:checked + label {
+  background: var(--c0);
+  color: var(--c11);
+}
+
+.orcamento-produto input:checked + label::before {
+  border: 1px solid var(--c7);
+  box-shadow: inset 0 0 0 0.1875rem var(--c0), inset 0 0 0 0.375rem var(--c7);
+}
+
+.orcamento-produto input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  /* tira do fluxo e a visibilidade somente de forma VISUAL */
+}
+
+.orcamento-conteudo {
+  display: none;
+}
+
+#bikcraft:checked ~ #orcamento-bikcraft, /* pega o primeiro existente com esse id que esteja no mesmo nível, NÃO PODE ESTAR EM DIV */
+#seguro:checked ~ #orcamento-seguro {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.orcamento-conteudo h2,
+.orcamento-dados h2:nth-of-type(n + 2) {
+  margin-top: 1.25rem;
+}
+
+.orcamento-dados {
+  border-radius: 0 0.3125rem 0.3125rem 0;
+  background: var(--c0);
+}
