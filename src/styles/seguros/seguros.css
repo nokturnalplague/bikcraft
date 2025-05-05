@@ -1,5 +1,5 @@
 .seguros-bg {
-  background: var(--c11);
+  background: var(--c11) url("../../pictures/dec/bottom-left.svg") no-repeat bottom 2.5rem left 2.5rem;
 }
 
 .seguros {
@@ -64,6 +64,12 @@
 
 .seguros-item a {
   grid-column: 1/-1;
+}
+
+@media (max-width: 1400px) {
+  .seguros-bg {
+    background: var(--c11);
+  }
 }
 
 @media (max-width: 800px) {

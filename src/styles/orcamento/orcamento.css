@@ -28,8 +28,8 @@
 }
 
 .orcamento-produto {
-  border-radius: 0.3125rem 0 0 0.3125rem;
-  background: var(--c12);
+  border-radius: 0.3125rem 0 0 0.3125rem ;
+  background: var(--c12) url("../../pictures/dec/bottom-left.svg") no-repeat bottom 2.5rem left 2.5rem;;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
@@ -142,7 +142,7 @@
 
 .orcamento-dados {
   border-radius: 0 0.3125rem 0.3125rem 0;
-  background: var(--c0);
+  background: var(--c0) url("../../pictures/dec/bottom-right.svg") no-repeat bottom 2.5rem right 2.5rem;; 
 }
 
 .aceito input {
@@ -195,9 +195,11 @@
   }
   .orcamento-produto {
     border-radius: .3125rem .3125rem 0 0;
+    background: var(--c12);
   }
   .orcamento-dados {
     border-radius: 0 0 .3125rem .3125rem;
+    background: var(--c0);
   }
 }
 

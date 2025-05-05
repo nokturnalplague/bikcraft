@@ -81,6 +81,7 @@
 .titulo {
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
+  background: url("../../pictures/dec/top-right.svg") no-repeat top 3.75rem right 2.5rem;
 }
 
 .titulo p {
@@ -102,5 +103,9 @@
   .botao {
     padding: .75rem 1rem;
     font-size: 1rem;
+  }
+
+  .titulo {
+    background: initial;
   }
 }

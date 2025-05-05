@@ -15,12 +15,12 @@
 }
 
 .contato-dados {
-  background: var(--c12);
+  background: var(--c12) url("../../pictures/dec/bottom-left.svg") no-repeat bottom 2.5rem left 2.5rem;
   border-radius: .3125rem 0 0 .3125rem;
 }
 
 .contato-formulario {
-  background: var(--c0);
+  background: var(--c0) url("../../pictures/dec/bottom-right.svg") no-repeat bottom 2.5rem right 2.5rem;
   border-radius: 0 .3125rem .3125rem 0;
 }
 
@@ -95,15 +95,17 @@
 
   .contato-dados,
   .contato-formulario {
-    padding: 1.25rem;
+    padding: 2.5rem;
   }
 
   .contato-dados {
     border-radius: .3125rem .3125rem 0 0;
+    background: var(--c12);
   }
 
   .contato-formulario {
     border-radius: 0 0 .3125rem .3125rem;
+    background: var(--c0);
   }
 
   .contato-dados h2,

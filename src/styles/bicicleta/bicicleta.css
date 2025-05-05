@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
   align-items: start;
+  background: url("../../pictures/dec/bottom-left.svg") no-repeat bottom 2.5rem left 0;
 }
 
 .bicicleta-imagens{
@@ -92,11 +93,18 @@
   border-bottom: none;
 }
 
+@media (max-width: 1400px) {
+  .bicicleta {
+    background: url("../../pictures/dec/bottom-left.svg") no-repeat bottom 2.5rem left 2.5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .bicicleta {
     grid-template-columns: 1fr;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+    background: initial;
   }
 
   .bicicleta-imagens {

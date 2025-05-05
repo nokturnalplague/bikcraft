@@ -1,5 +1,5 @@
 .vantagens-bg {
-  background: var(--c12);
+  background: var(--c12) url("../../pictures/dec/bottom-left.svg") no-repeat bottom 2.5rem left 2.5rem;
 }
 
 .vantagens {
@@ -25,6 +25,13 @@
 .vantagens-item h3 {
   margin-bottom: .5rem;
 }
+
+@media (max-width: 1400px) {
+  .vantagens-bg {
+    background: var(--c12);
+  }
+}
+
 
 @media (max-width: 800px) {
   .vantagens {
