@@ -27,18 +27,30 @@ select {
   color: var(--c7);
 }
 
-select {
-  height: 3.125rem;
-}
-
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
-.form textarea:focus 
+.form textarea:focus, 
 select:focus {
   outline: none;
   border-color: var(--p1);
   background: var(--c0);
   box-shadow: 0 0 0 .175rem #fea;
+}
+
+select:focus {
+  background-image: url("../../pictures/icones/seta-abrir.svg");
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+}
+
+select {
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../../pictures/icones/seta-abrir.svg");
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
 }
 
 @media (max-width: 600px) {
