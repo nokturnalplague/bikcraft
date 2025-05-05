@@ -101,14 +101,14 @@
   /* tira do fluxo e a visibilidade somente de forma VISUAL */
 }
 
-.orcamento-conteudo {
-  display: none;
-}
-
 #bikcraft:checked ~ #orcamento-bikcraft, /* pega o primeiro existente com esse id que esteja no mesmo nível, NÃO PODE ESTAR EM DIV */
 #seguro:checked ~ #orcamento-seguro {
   display: grid;
   gap: 1.25rem;
+}
+
+.orcamento-conteudo {
+  display: none;
 }
 
 .orcamento-conteudo h2,
@@ -116,7 +116,57 @@
   margin-top: 1.25rem;
 }
 
+.orcamento-detalhes {
+  display: none;
+  background: var(--c0);
+  padding: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+  border-radius: .3125rem;
+}
+
+.orcamento-produto input:checked + label + .orcamento-detalhes {
+  display: grid;
+}
+
+.orcamento-detalhes li {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.orcamento-detalhes li img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .5rem;
+}
+
 .orcamento-dados {
   border-radius: 0 0.3125rem 0.3125rem 0;
   background: var(--c0);
+}
+
+@media (max-width: 1200px) {
+  .orcamento-produto,
+  .orcamento-dados {
+    padding: 2rem;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .orcamento {
+    grid-template-columns: 1fr;
+  }
+  .orcamento-produto {
+    border-radius: .3125rem .3125rem 0 0;
+  }
+  .orcamento-dados {
+    border-radius: 0 0 .3125rem .3125rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .orcamento-produto {
+    grid-template-columns: 1fr;
+  }
 }
