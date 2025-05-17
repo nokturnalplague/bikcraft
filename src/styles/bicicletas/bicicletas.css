@@ -14,7 +14,7 @@
   display: grid;
 }
 
-.bicicletas-imagem img {
+.bicicletas-imagem picture {
   grid-area: 1/1; /* primeira linha, primeira coluna */
 }
 

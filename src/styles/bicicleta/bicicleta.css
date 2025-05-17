@@ -8,18 +8,18 @@
   background: url("../../pictures/dec/bottom-left.svg") no-repeat bottom 2.5rem left 0;
 }
 
-.bicicleta-imagens{
+.bicicleta-imagens {
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
 }
 
-.bicicleta-imagens img{
+.bicicleta-imagens picture {
   flex: 1;
-  min-width: 12.5rem;
+  height: auto;
 }
 
-.bicicleta-imagens img:first-child {
+.bicicleta-imagens picture:first-child {
   min-width: 100%;
 }
 

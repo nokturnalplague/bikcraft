@@ -46,6 +46,10 @@
   margin-top: 2.5rem;
 }
 
+.footer-informacoes li {
+  height: 48px;
+}
+
 @media (max-width: 800px) {
   .footer > img {
     display: none;
