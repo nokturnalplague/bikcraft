@@ -3,6 +3,7 @@
 @import url("./utilidades/colors.css");
 @import url("./utilidades/components.css");
 @import url("./utilidades/form.css");
+@import url("./utilidades/animacao.css");
 
 /* Global */
 @import url("./global/header.css");

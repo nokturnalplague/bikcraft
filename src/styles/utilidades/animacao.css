@@ -1,0 +1,22 @@
+.down {
+  transform: translate3d(0, -20px, 0);
+}
+.up {
+  transform: translate3d(0, 20px, 0);
+}
+.right {
+  transform: translate3d(20px, 0, 0);
+}
+.left {
+  transform: translate3d(-20px, 0, 0);
+}
+
+[data-anime] {
+  opacity: 0;
+}
+
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
