@@ -12,8 +12,6 @@ function ativarPerguntas(event) {
   pergunta.setAttribute('aria-expanded', ativo)
 }
 
-function eventosPerguntas(pergunta) {
+perguntas.forEach((pergunta) => {
   pergunta.addEventListener('click', ativarPerguntas)
-}
-
-perguntas.forEach(eventosPerguntas)
+})

@@ -106,10 +106,6 @@
     padding-bottom: 2.5rem;
     background: initial;
   }
-
-  .bicicleta-imagens {
-    grid-row: 2;
-  }
 }
 
 @media (max-width: 800px) {
