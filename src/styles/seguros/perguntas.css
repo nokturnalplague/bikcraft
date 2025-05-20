@@ -51,14 +51,18 @@
   transform: rotate(360deg);
 }
 
-.perguntas dd {
-  display: none;
+:not(.js) .perguntas dd {
+  display: block;
   padding-left: 1.25rem;
   padding-top: 1rem;
   max-width: 80ch;
 }
 
-.perguntas dd.ativo {
+.js .perguntas dd {
+  display: none;
+}
+
+.js .perguntas dd.ativo {
   display: block;
 }
 

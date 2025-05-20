@@ -1,5 +1,7 @@
 console.log('nokturnalplague')
 
+document.documentElement.classList.add('js')
+
 import './plugins/simple-anime.js'
 
 import './menu.js'
